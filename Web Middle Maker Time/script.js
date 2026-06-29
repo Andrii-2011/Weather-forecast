@@ -9,7 +9,7 @@ const dayy = document.querySelector(".day")
 
 btnf.addEventListener("click", async function () {
 
-    const URL = `http://api.weatherapi.com/v1/forecast.json?key=c9005cee47614db8a80172847260906&q=${city.value}&days=3&aqi=no&alerts=no`
+    const URL = `https://api.weatherapi.com/v1/forecast.json?key=c9005cee47614db8a80172847260906&q=${city.value}&days=3&aqi=no&alerts=no`
     try {
         let container = document.getElementById("imp")
         container.innerHTML = ''
