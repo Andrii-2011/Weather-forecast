@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('fon.JPG');
+  background-size: cover;
+}
+
+.all {
+  display: flex;
+  height: 40%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.imp-text {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  justify-content: center;
+  padding: 40px;
+}
+
+.enter {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-self: center;
+  margin: 30px;
+}
+
+.info {
+  display: flex;
+  font-size: 40px;
+  color: rgb(158, 248, 2);
+  justify-content: center;
+  align-self: center;
+  padding: 30px;
+}
+
+.lla {
+  display: flex;
+  width: 100%;
+  height: 429px;
+  justify-content: space-around;
+}
+
+.day, .tem, .snow, .wind {
+  padding: 15px;
+  color: yellow;
+}
+
+.day {
+  font-size: 28px;
+}
+
+.tem {
+  font-size: 25px;
+}
+
+.snow {
+  font-size: 35px;
+}
+
+.wind {
+  font-size: 21px;
+}
+
+#btn {
+  display: flex;
+  width: 120px;
+  height: 60px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: rgb(27, 239, 7);
+  color: rgb(255, 0, 191);
+}
+
+#img {
+  width: 80px;
+  height: 90px;
+}
+
+#naad {
+  display: flex;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(7, 7, 222);
+  border-radius: 25%;
+  flex-direction: column;
+  align-items: center;
+}
